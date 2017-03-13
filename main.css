@@ -1,0 +1,61 @@
+#mazeCanvas {
+  background-image: url('space.png');
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  opacity: 0.9;
+  position: absolute;
+  left: 3;
+  top: 0;
+  z-index: 0;
+
+}
+
+#spriteCanvas {
+  position: absolute;
+  left: 3;
+  top: 0;
+  z-index: 2;
+}
+
+#bcCanvas {
+  position: absolute;
+  left: 3;
+  top: 0;
+  z-index: 1;
+}
+
+#spCanvas {
+  position: absolute;
+  left: 3;
+  top: 0;
+  z-index: 1;
+}
+
+.panel {
+  height: 700px;
+}
+.winner {
+  width: 600px;
+  height: 600px;
+  font-size: 40pt;
+  font: calibri;
+  background-color: #66ccff;
+  text-align: center;
+}
+
+.credits {
+  margin-top: 15px;
+
+}
+.cnvCont{
+  height: 100%;
+}
+.gameContent {
+  width: 100%;
+}
+
+.gameControls {
+  width: 40%;
+  /*overflow: auto;*/
+  /*float: right;*/
+}
